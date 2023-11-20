@@ -1,0 +1,136 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_percentage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "addRecipient",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fundContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payRecipients",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "recipients",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "shares",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PH/contracts/Payout.sol": "Payout"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PH/contracts/Ownable.sol": {
+			"keccak256": "0x794ddae576762ab52f9daded74958e04bc0e5d0686f0a760312e2f43e0cf7011",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://910f97e20865f6550bb51087b24ddedcfc4ab32578b98c0fd96e8c99788a69c0",
+				"dweb:/ipfs/QmT7XvHzSzM1wXsv19a6B1WFBspAGpDHpGvZEtV7TXkaNt"
+			]
+		},
+		"PH/contracts/Payout.sol": {
+			"keccak256": "0xc18bcec76a7719e869949ec5dcd49a434d78f29c104970a7c1cd0b95d5542463",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://023b0564e92d066f726a9fc45e89cf979fe02e25941d1be061cbe431b2d8fac5",
+				"dweb:/ipfs/QmZ52rxTUgw1muuh9ZWARK9rdiA6yrLRD918oxoghkVHbE"
+			]
+		}
+	},
+	"version": 1
+}
