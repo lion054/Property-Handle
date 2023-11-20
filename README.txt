@@ -1,3 +1,40 @@
+Smart Contacts 
+
+https://github.com/lion054/Property-Handle
+
+Backend 
+
+
+User Dashboard
+
+
+Frontend
+
+
+todo
+ 
+might add a new smart contract that allows minting of PPH token upon adding a new property. that would mean property infor is also to be kept on blockchain.
+Layout to be something like this 
+
+   struct Property{
+        uint id;
+        uint price; //to excute project
+        address developer;
+        string name;
+        string description;
+        string longitude;
+        string latitude;
+        string image_hash;
+		
+		
+
+
+
+
+
+
+
+
 REMIX DEFAULT WORKSPACE
 
 Remix default workspace is present when:
